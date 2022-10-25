@@ -30,6 +30,11 @@ namespace CSharpToRSTClasses
 
         }
 
+        public TestCSharpClass(string testString1)
+        {
+
+        }
+
         private void PrivateTestMethodWithTwoArgumentsAndNoReturnValue(string testString1, int testInt1)
         {
 
