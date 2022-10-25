@@ -7,8 +7,7 @@ namespace CSharpToRSTClasses
         static void Main(string[] args)
         {
             Console.WriteLine("Please input the class path");
-            //string classPath = Console.ReadLine();
-            string classPath = "D:\\Forschung\\CSharpToRSTClasses\\CSharpToRSTClasses\\CSharpToRSTClasses\\TestCSharpClass.cs";
+            string classPath = Console.ReadLine();
 
             string[] cSharpClass = File.ReadAllLines(classPath);
 
@@ -91,6 +90,8 @@ namespace CSharpToRSTClasses
                     }
                 }
             }
+
+            File.WriteAllLines(classPath + "RST.txt", newRstFile);
 
             Console.WriteLine("EOL");
         }
