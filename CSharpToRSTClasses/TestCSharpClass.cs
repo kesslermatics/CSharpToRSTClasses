@@ -49,8 +49,5 @@ namespace CSharpToRSTClasses
         {
             return 1;
         }
-
-
-
     }
 }
